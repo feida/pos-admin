@@ -1,0 +1,7 @@
+{"level":"error","message":"ServiceUnavailableError: Response timeout\n    at IncomingMessage.<anonymous> (/Users/chintec/Documents/node/pos-admin/node_modules/connect-timeout/index.js:84:8)\n    at emitOne (events.js:116:13)\n    at IncomingMessage.emit (events.js:211:7)\n    at Timeout._onTimeout (/Users/chintec/Documents/node/pos-admin/node_modules/connect-timeout/index.js:49:11)\n    at ontimeout (timers.js:475:11)\n    at tryOnTimeout (timers.js:310:5)\n    at Timer.listOnTimeout (timers.js:270:5)","timestamp":"2019-01-28T03:02:34.700Z"}
+{"level":"info","message":"GET /newpos/pos/charts/two/weeks/trend/analysis 95 2019-01-28T03:02:42.784Z","timestamp":"2019-01-28T03:02:42.787Z"}
+{"level":"info","message":"GET /newpos/pos/charts/two/weeks/trend/analysis 44 2019-01-28T03:03:16.468Z","timestamp":"2019-01-28T03:03:16.468Z"}
+{"level":"info","message":"GET /newpos/pos/charts/two/weeks/trend/analysis 49 2019-01-28T03:05:03.137Z","timestamp":"2019-01-28T03:05:03.139Z"}
+{"level":"info","message":"GET /newpos/pos/charts/two/weeks/trend/analysis 19 2019-01-28T03:05:40.505Z","timestamp":"2019-01-28T03:05:40.505Z"}
+{"level":"info","message":"GET /newpos/pos/charts/two/weeks/trend/analysis 10 2019-01-28T03:06:05.996Z","timestamp":"2019-01-28T03:06:05.996Z"}
+{"level":"info","message":"GET /newpos/pos/charts/two/weeks/trend/analysis 25 2019-01-28T03:06:14.911Z","timestamp":"2019-01-28T03:06:14.911Z"}

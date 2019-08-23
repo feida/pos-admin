@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.15/css/jquery.dataTables.min.css">
+</head>
+<body>
+<div>
+  <table id="shopReportTable" class="table table-striped table-bordered table-hover" width="100%">
+  </table>
+</div>
+<div id="aaa"></div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/dataTables.fixedColumns.js"></script>
+<script>
+  let arr = [
+    {
+      shopName: 'ggsgsg',
+      originalAmount: 'ggsgsg',
+      totalIncome: 'ggsgsg',
+      amountCollected: 'ggsgsg',
+      discountTotalMoney: 'ggsgsg',
+      refundTotalMoney: 'ggsgsg',
+      wechatIncome: 'ggsgsg',
+      aliPayment: 'ggsgsg',
+      chargeAccountIncome: 'ggsgsg',
+      backCartPay: 'ggsgsg',
+      moneyPay: 'ggsgsg',
+      shanhuiPayment: 'ggsgsg',
+      groupPurchasePayment: 'ggsgsg',
+      redIncome: 'ggsgsg',
+      couponIncome: 'ggsgsg',
+      chargeGifAccountIncome: 'ggsgsg',
+      waitNumberIncome: 'ggsgsg',
+      integralPayment: 'ggsgsg',
+      orderPosDiscountMoney: 'ggsgsg',
+      memberDiscountMoney: 'ggsgsg',
+      realEraseMoney: 'ggsgsg',
+      exemptionMoney: 'ggsgsg',
+      cashCouponPayment: 'ggsgsg',
+      articleBackPay: 'ggsgsg',
+      refundCrashPayment: 'ggsgsg',
+      cardRechargePay: 'ggsgsg',
+      cardRechargeFreePay: 'ggsgsg',
+      refundCardPay: 'ggsgsg',
+      cardDiscountPay: 'ggsgsg',
+    },
+    {
+      shopName: 'ggsgsg',
+      originalAmount: 'ggsgsg',
+      totalIncome: 'ggsgsg',
+      amountCollected: 'ggsgsg',
+      discountTotalMoney: 'ggsgsg',
+      refundTotalMoney: 'ggsgsg',
+      wechatIncome: 'ggsgsg',
+      aliPayment: 'ggsgsg',
+      chargeAccountIncome: 'ggsgsg',
+      backCartPay: 'ggsgsg',
+      moneyPay: 'ggsgsg',
+      shanhuiPayment: 'ggsgsg',
+      groupPurchasePayment: 'ggsgsg',
+      redIncome: 'ggsgsg',
+      couponIncome: 'ggsgsg',
+      chargeGifAccountIncome: 'ggsgsg',
+      waitNumberIncome: 'ggsgsg',
+      integralPayment: 'ggsgsg',
+      orderPosDiscountMoney: 'ggsgsg',
+      memberDiscountMoney: 'ggsgsg',
+      realEraseMoney: 'ggsgsg',
+      exemptionMoney: 'ggsgsg',
+      cashCouponPayment: 'ggsgsg',
+      articleBackPay: 'ggsgsg',
+      refundCrashPayment: 'ggsgsg',
+      cardRechargePay: 'ggsgsg',
+      cardRechargeFreePay: 'ggsgsg',
+      refundCardPay: 'ggsgsg',
+      cardDiscountPay: 'ggsgsg',
+    },
+    {
+      shopName: 'ggsgsg',
+      originalAmount: 'ggsgsg',
+      totalIncome: 'ggsgsg',
+      amountCollected: 'ggsgsg',
+      discountTotalMoney: 'ggsgsg',
+      refundTotalMoney: 'ggsgsg',
+      wechatIncome: 'ggsgsg',
+      aliPayment: 'ggsgsg',
+      chargeAccountIncome: 'ggsgsg',
+      backCartPay: 'ggsgsg',
+      moneyPay: 'ggsgsg',
+      shanhuiPayment: 'ggsgsg',
+      groupPurchasePayment: 'ggsgsg',
+      redIncome: 'ggsgsg',
+      couponIncome: 'ggsgsg',
+      chargeGifAccountIncome: 'ggsgsg',
+      waitNumberIncome: 'ggsgsg',
+      integralPayment: 'ggsgsg',
+      orderPosDiscountMoney: 'ggsgsg',
+      memberDiscountMoney: 'ggsgsg',
+      realEraseMoney: 'ggsgsg',
+      exemptionMoney: 'ggsgsg',
+      cashCouponPayment: 'ggsgsg',
+      articleBackPay: 'ggsgsg',
+      refundCrashPayment: 'ggsgsg',
+      cardRechargePay: 'ggsgsg',
+      cardRechargeFreePay: 'ggsgsg',
+      refundCardPay: 'ggsgsg',
+      cardDiscountPay: 'ggsgsg',
+    },
+    {
+      shopName: 'ggsgsg',
+      originalAmount: 'ggsgsg',
+      totalIncome: 'ggsgsg',
+      amountCollected: 'ggsgsg',
+      discountTotalMoney: 'ggsgsg',
+      refundTotalMoney: 'ggsgsg',
+      wechatIncome: 'ggsgsg',
+      aliPayment: 'ggsgsg',
+      chargeAccountIncome: 'ggsgsg',
+      backCartPay: 'ggsgsg',
+      moneyPay: 'ggsgsg',
+      shanhuiPayment: 'ggsgsg',
+      groupPurchasePayment: 'ggsgsg',
+      redIncome: 'ggsgsg',
+      couponIncome: 'ggsgsg',
+      chargeGifAccountIncome: 'ggsgsg',
+      waitNumberIncome: 'ggsgsg',
+      integralPayment: 'ggsgsg',
+      orderPosDiscountMoney: 'ggsgsg',
+      memberDiscountMoney: 'ggsgsg',
+      realEraseMoney: 'ggsgsg',
+      exemptionMoney: 'ggsgsg',
+      cashCouponPayment: 'ggsgsg',
+      articleBackPay: 'ggsgsg',
+      refundCrashPayment: 'ggsgsg',
+      cardRechargePay: 'ggsgsg',
+      cardRechargeFreePay: 'ggsgsg',
+      refundCardPay: 'ggsgsg',
+      cardDiscountPay: 'ggsgsg',
+    },
+  ]
+  var tb2 = $("#shopReportTable").DataTable({
+    data:arr,
+    fixedColumns: {
+      leftColumns: 2
+    },
+    "columnDefs": [ {
+      "targets": 0,
+      "searchable": false
+    } ],
+    columns : [
+      {
+        //title : "店铺名称",
+        data : "shopName",
+      },
+      {
+        //title : "原价销售总额",
+        data : "originalAmount",
+      },
+      {
+        //title : "订单总额",
+        data : "totalIncome",
+      },
+      {
+        //title : "实收金额",
+        data : "amountCollected",
+      },
+      {
+        //title : "折扣金额",
+        data : "discountTotalMoney",
+      },
+      {
+        //title : "退款金额",
+        data : "refundTotalMoney",
+      },
+      {
+        //title : "微信支付",
+        data : "wechatIncome",
+      },
+      {
+        //title : "支付宝支付",
+        data : "aliPayment",
+      },
+      {
+        //title : "充值账户支付",
+        data : "chargeAccountIncome",
+      },
+      {
+        //title : "刷卡支付",
+        data : "backCartPay"
+      },
+      {
+        //title : "现金支付",
+        data : "moneyPay"
+      },
+      {
+        //title : "新美大支付",
+        data : "shanhuiPayment"
+      },
+      {
+        //title : "团购支付",
+        data : "groupPurchasePayment"
+      },
+      {
+        //title : "红包支付",
+        data : "redIncome",
+      },
+      {
+        //title : "优惠券支付",
+        data : "couponIncome",
+      },
+
+      {
+        //title : "充值赠送支付",
+        data : "chargeGifAccountIncome",
+      },
+      {
+        //title : "等位红包支付",
+        data : "waitNumberIncome",
+      },
+      {
+        //title : "会员支付",
+        data : "integralPayment"
+      },
+      {
+        //title : "POS端折扣",
+        data : "orderPosDiscountMoney",
+      },
+      {
+        //title : "会员折扣",
+        data : "memberDiscountMoney",
+      },
+      {
+        //title : "抹零",
+        data : "realEraseMoney",
+      },
+      {
+        //title : "免单",
+        data : "exemptionMoney",
+      },
+      {
+        //title : "代金券支付",
+        data : "cashCouponPayment",
+      },
+      {
+        //title : "退菜返还红包",
+        data : "articleBackPay"
+      },
+      {
+        //title : "线下现金退款",
+        data : "refundCrashPayment"
+      },
+      {
+        //title : "实体卡充值本金支付",
+        data : "cardRechargePay"
+      },
+      {
+        //title : "实体卡充值赠送支付",
+        data : "cardRechargeFreePay"
+      },
+      {
+        //title : "实体卡退款金额",
+        data : "refundCardPay"
+      },{
+        //title : "实体卡折扣",
+        data : "cardDiscountPay"
+      },
+
+    ]
+
+  });
+
+  tb2.draw();
+  $(function(){
+    var tableRows = $('#shopReportTable thead');
+
+    //var aaa = $('#aaa');
+    var tableRows1 = $('#shopReportTable thead tr');
+    var tableRows2 = $('#shopReportTable thead tr')[0];
+    //tableRows1.add('<tr><th>dddd</th></tr>')
+    console.log('tableRows1',tableRows[0])
+    tableRows[0].removeChild(tableRows2);
+    let trHTML =
+      "<tr>" +
+        "<th rowspan='2'>店铺</th>" +
+        "<th rowspan='2'>原价销售总额</th>" +
+        "<th rowspan='2'>订单总额</th>" +
+        "<th rowspan='2'>实收金额</th>" +
+        "<th rowspan='2'>折扣金额</th>" +
+        "<th colspan='12'>实收构成</th>" +
+        "<th colspan='12'>折扣构成</th>" +
+      "</tr>" +
+      "<tr>" +
+        "<th>退款金额</th>" +
+        "<th>微信支付</th>" +
+        "<th>支付宝支付</th>" +
+        "<th>充值账户支付</th>" +
+        "<th>刷卡支付</th>" +
+        "<th>现金支付</th>" +
+        "<th>新美大支付</th>" +
+        "<th>团购支付</th>" +
+        "<th>红包支付</th>" +
+        "<th>优惠券支付</th>" +
+        "<th>充值赠送支付</th>" +
+        "<th>等位红包支付</th>" +
+        "<th>会员支付</th>" +
+        "<th>POS端折扣</th>" +
+        "<th>会员折扣</th>" +
+        "<th>抹零</th>" +
+        "<th>免单</th>" +
+        "<th>代金券支付</th>" +
+        "<th>退菜返还红包</th>" +
+        "<th>线下现金退款</th>" +
+        "<th>实体卡充值本金支付</th>" +
+        "<th>实体卡充值赠送支付</th>" +
+        "<th>实体卡退款金额</th>" +
+        "<th>实体卡折扣</th>" +
+      "</tr>"
+    tableRows.html(trHTML)
+    //aaa.html(trHTML)
+    $.each(tableRows1[0], function (index, value) {
+      var cells = $(value).find('th');
+      //$(cells[1]).remove(); // for example I want to remove cell 1
+      $(cells[0]).addClass('sorting_disabled'); // for example I want to set colspan = 2 for cell 0
+
+    });
+  });
+</script>
+</html>

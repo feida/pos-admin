@@ -1,0 +1,829 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9b4180d8-d34c-4c46-bee3-b95d78e9fae4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/element-icons.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/static/img/401.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/static/img/404.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/assets/401_images/401.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/assets/404_images/404.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/assets/404_images/404_cloud.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/assets/custom-theme/fonts/element-icons.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/assets/custom-theme/fonts/element-icons.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/pos-admin.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app_back.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/www.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/css/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/js/jquery-2.1.0.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/js/socket.io.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/dev/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/pre/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/pro/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/auth/authorize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/constant/constant.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/constant/payment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/emq/emqApi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/emq/newpos.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/newpos/charts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/newpos/dailyKnots.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/newpos/order.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/notify/pushQueue.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/restoBrand/customer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/restoBrand/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/restoBrand/wechat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/serverConfig/aliy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/socket/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/spider/third_party_merchants.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/system/administrator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/system/perm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/system/record.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/system/role.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/upload/image.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/error/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/logger/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/server/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/socket/socket.io.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/util/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2019-01-11-error.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2019-01-17-error.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2019-01-18-error.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2019-01-21-error.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2019-01-22-error.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2019-01-23-error.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2019-01-25-error.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2019-01-28-error.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2019-02-12-error.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2019-02-13-error.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2019-02-18-error.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2019-02-19-error.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2019-02-20-error.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2019-02-21-error.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2019-02-22-error.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/error.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/middleware/error/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/middleware/log/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/middleware/paging/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/middleware/privilege/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/middleware/session/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/middleware/socket/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/middleware/webpack/dev.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/middleware/webpack/hot.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nodemon.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/model/admin/administrator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/model/admin/authorize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/model/admin/constant.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/model/admin/init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/model/admin/payment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/model/admin/perm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/model/admin/record.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/model/admin/role.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/model/agenda/logs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/model/alicloud/domainRecords.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/model/brandCurrency/customer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/model/brandCurrency/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/model/brandCurrency/order.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/model/emq/agenda.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/model/emq/emqApi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/model/emq/newpos.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/model/images/qiniu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/model/newpos/charts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/model/newpos/dailyKnots.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/model/newpos/order.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/model/restoBrand/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/model/restoBrand/wechat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/model/spider/third_party_merchants.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/config/dev/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/config/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/config/pre/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/config/pro/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/image/qiniu/oss.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mongodb/admin/data/administrator.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mongodb/admin/data/constant.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mongodb/admin/data/paymentConstant.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mongodb/admin/data/perm.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mongodb/admin/data/role.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mongodb/admin/data/role_perm.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mongodb/admin/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mongodb/admin/init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mongodb/admin/schema/administrator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mongodb/admin/schema/constant.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mongodb/admin/schema/orderRecord.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mongodb/admin/schema/rolePerm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mongodb/agenda/agenda.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mongodb/agenda/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mongodb/agenda/schema/task.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mongodb/newpos/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mongodb/newpos/schema/charts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mongodb/newpos/schema/dailyKnots.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mongodb/newpos/schema/order.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mongodb/newpos/schema/posDailyKnotsRecord.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mongodb/spider/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mongodb/spider/schema/businessStatistics.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mongodb/spider/schema/thirdPartyMerchantsUser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mongodb/test/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mongodb/test/init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mongodb/test/schema/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mqtt/agenda/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mqtt/newpos/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/do_operate_log.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/doc_material_stock.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/doc_pms_po_detail.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/doc_pms_po_header.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/doc_return_detail.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/doc_return_header.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/doc_stk_in_plan_detail.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/doc_stk_in_plan_header.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/doc_stock_count_detail.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/doc_stock_count_header.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/md_bill.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/md_category.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/md_material.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/md_material_consume_detail.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/md_material_consume_opt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/md_material_view.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/md_rul_article_bom_detail.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/md_rul_article_bom_detail_history.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/md_rul_article_bom_head.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/md_rul_article_bom_head_history.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/md_supplier.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/md_supplier_contact.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/md_supplier_price_detail.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/md_supplier_price_detail_history.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/md_supplier_price_head.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/md_unit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/order_sell_summary.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_account.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_account_log.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_activty.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_address.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_advert.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_appraise.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_appraise_article.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_appraise_comment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_appraise_file.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_appraise_grade.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_appraise_new.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_appraise_praise.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_appraise_step.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_area.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_article.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_article_attr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_article_family.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_article_kitchen.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_article_kitchen_printer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_article_library.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_article_price.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_article_sale_record.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_article_support_time.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_article_top.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_article_unit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_article_unit_detail.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_article_unit_new.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_auto_confirm_log.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_bad_top.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_bonus_log.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_bonus_setting.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_charge_log.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_charge_order.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_charge_payment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_charge_setting.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_collect_pos.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_collect_product_item.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_coupon.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_coupon_shop_articles.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_customer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_customer_address.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_customer_detail.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_customer_group.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_customer_notice_history.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_day_appraise_message.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_day_data_message.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_delivery_point.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_distribution_time.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_employee.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_employee_role.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_experience.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_free_day.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_get_number.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_good_top.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_hunger_order.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_hunger_order_detail.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_hunger_order_extra.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_hunger_order_garnish.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_hunger_order_group.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_kitchen.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_kitchen_group.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_kitchen_group_detail.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_kitchen_printer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_log_base.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_meal_attr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_meal_item.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_meal_temp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_meal_temp_attr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_member_activity.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_member_activity_thing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_menu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_menu_article.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_menu_shop.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_new_custom_coupon.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_notice.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_notice_support_time.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_off_line_order.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_order.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_order_before.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_order_item.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_order_item_actual.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_order_payment_item.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_order_refund_remark.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_order_remark.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_order_time.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_participant.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_pay_dictionary.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_payment_review.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_permission.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_picture_slider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_platform_order.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_platform_order_detail.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_platform_order_extra.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_pos_user.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_print_log.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_printer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_product_dictionary.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_queue_qrcode.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_receipt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_receipt_title.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_recommend.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_recommend_article.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_recommend_category.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_recommend_category_article.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_red_config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_red_packet.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_reward_order.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_reward_order_payment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_role.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_role_permission.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_shop_cart.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_shop_dictionary.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_show_photo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_sms_log.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_store_operations_log.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_support_time.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_svip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_svip_activity.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_svip_charge_item.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_svip_charge_order.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_sync_order_log.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_table_code.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_table_group.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_table_qrcode.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_third_customer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_tv_mode.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_unit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_unit_detail.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_virtual_products.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_virtual_products_kitchen.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_wait_picture.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_weight_package.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/tb_weight_package_detail.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/th_third_customer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/we_charge_log.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/we_item.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/we_order.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/we_order_detail.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/we_return_customer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/we_return_item.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/we_shop.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/we_shop_info.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/brand_currency/schema/we_shop_score.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/account_address_info.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/address_info.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/brand.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/brand_module_list.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/brand_queue.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/brand_score_sort.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/brand_setting.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/brand_template_edit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/brand_template_root.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/brand_user.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/configInfo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/contract.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/database_config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/distribution_mode.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/electronic_ticket_config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/eleme_token.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/examine.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/income.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/module_list.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/mq_config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/mq_setting.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/mqtt_config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/other_config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/other_config_detailed.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/payment_mode.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/pos_config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/pos_login_config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/pos_user.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/refund_remark.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/reward_setting.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/service_config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/share_setting.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/shopInfo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/shop_detail.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/shop_mode.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/shop_score_sort.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/shop_tv_config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/shop_type.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/sms_acount.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/sms_charge_order.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/sms_ticket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/sys_error.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/sys_permission.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/sys_role.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/sys_role_permission.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/sys_user.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/sys_user_group.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/sys_user_role.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/tb_account_charge_order.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/tb_account_notice.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/tb_account_setting.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/tb_account_ticket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/tb_brand_account.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/tb_brand_account_log.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/tb_brand_account_stream.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/tb_card_customer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/tb_city.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/tb_contract_ticket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/tb_district.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/tb_new_employee.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/tb_order_exception.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/tb_order_remark.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/tb_peak.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/tb_platform.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/tb_platform_config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/tb_property_dictionaries.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/tb_property_docking.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/tb_province.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/tb_show_photo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/tb_table_qrcode.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/tb_template.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/tb_template_flow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/tb_token.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/tb_user.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/tb_vcode.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/tb_version.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/tb_version_package.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/tb_version_pos.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/tb_vocation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/third_param.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/version_newpos_brand.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/version_newpos_shopdetail.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/we_brand.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/we_brand_score.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/wechat_charge_config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/wechat_config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/wether.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/wxserver_config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/zk_config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/resto_brand/schema/zk_service_config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/test21/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/test21/init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/mysql/test21/schema/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/rabbit/lib/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/rabbit/spider/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/rabbit/spider/queue/url.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/redis/restoplus/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/service/redis/wechat/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/router/auth/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/router/constant/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/router/emq/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/router/newpos/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/router/notify/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/router/restoBrand/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/router/serverConfig/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/router/socket/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/router/spider/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/router/system/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/router/upload/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/0.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/10.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/11.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/12.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/13.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/14.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/15.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/16.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/17.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/18.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/19.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/20.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/21.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/22.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/23.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/24.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/25.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/26.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/27.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/28.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/29.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/30.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/31.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/32.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/33.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/6.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/7.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/8.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/9.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/vendor/manifest.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/pages/charts/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/App.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/api/constant.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/api/emqPush.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/api/login.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/api/newpos.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/api/notify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/api/qiniu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/api/record.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/api/restoBrand.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/api/serverConfig.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/api/spider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/api/system.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/assets/custom-theme/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/assets/echarts-macarons.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/components/BackToTop/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/components/Breadcrumb/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/components/Charts/keyboard.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/components/Charts/lineMarker.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/components/Charts/mixChart.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/components/Charts/mixins/resize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/components/DndList/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/components/DragSelect/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/components/Dropzone/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/components/ErrorLog/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/components/GithubCorner/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/components/Hamburger/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/components/ImageCropper/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/components/ImageCropper/utils/data2blob.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/components/ImageCropper/utils/effectRipple.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/components/ImageCropper/utils/language.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/components/ImageCropper/utils/mimes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/components/JsonEditor/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/components/Kanban/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/components/LangSelect/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/components/MDinput/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/components/MarkdownEditor/defaultOptions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/components/MarkdownEditor/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/components/Pagination/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/components/PanThumb/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/components/Screenfull/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/components/ScrollPane/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/components/Share/dropdownMenu.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/components/SizeSelect/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/components/Sticky/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/components/SvgIcon/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/components/TextHoverEffect/Mallki.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/components/ThemePicker/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/components/Tinymce/components/editorImage.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/components/Tinymce/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/components/Tinymce/plugins.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/components/Tinymce/toolbar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/components/TreeTable/eval.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/components/TreeTable/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/components/TreeTable/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/components/Upload/singleImage.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/components/Upload/singleImage2.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/components/Upload/singleImage3.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/components/UploadExcel/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/config/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/directive/clipboard/clipboard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/directive/clipboard/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/directive/el-dragDialog/drag.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/directive/el-dragDialog/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/directive/permission/hasPerm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/directive/permission/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/directive/permission/perm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/directive/permission/permission.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/directive/sticky.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/directive/waves/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/directive/waves/waves.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/directive/waves/waves.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/errorLog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/filters/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/icons/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/icons/svg/404.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/icons/svg/bug.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/icons/svg/chart.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/icons/svg/clipboard.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/icons/svg/component.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/icons/svg/dashboard.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/icons/svg/documentation.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/icons/svg/drag.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/icons/svg/edit.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/icons/svg/email.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/icons/svg/example.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/icons/svg/excel.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/icons/svg/eye.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/icons/svg/form.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/icons/svg/guide 2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/icons/svg/guide.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/icons/svg/icon.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/icons/svg/international.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/icons/svg/language.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/icons/svg/link.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/icons/svg/list.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/icons/svg/lock.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/icons/svg/message.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/icons/svg/money.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/icons/svg/nested.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/icons/svg/password.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/icons/svg/pdf.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/icons/svg/people.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/icons/svg/peoples.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/icons/svg/qq.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/icons/svg/shopping.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/icons/svg/size.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/icons/svg/star.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/icons/svg/tab.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/icons/svg/table.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/icons/svg/theme.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/icons/svg/tree.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/icons/svg/user.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/icons/svg/wechat.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/icons/svg/zip.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/icons/svgo.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/lang/en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/lang/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/lang/zh.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/mock/article.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/mock/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/mock/login.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/mock/remoteSearch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/mock/transaction.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/pages/charts/aaa.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/pages/charts/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/permission.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/router/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/store/getters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/store/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/store/modules/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/store/modules/errorLog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/store/modules/permission.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/store/modules/socketData.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/store/modules/tagsView.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/store/modules/user.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/styles/btn.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/styles/element-ui.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/styles/index.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/styles/mixin.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/styles/sidebar.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/styles/transition.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/styles/variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/utils/auth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/utils/clipboard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/utils/constants.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/utils/createUniqueString.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/utils/i18n.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/utils/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/utils/openWindow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/utils/permission.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/utils/request.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/utils/validate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/vendor/Blob.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/vendor/Export2Excel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/vendor/Export2Zip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/charts/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/charts/keyboard.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/charts/line.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/charts/mixChart.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/dashboard/admin/components/PanelGroup.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/dashboard/admin/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/dashboard/editor/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/dashboard/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/errorLog/errorTestA.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/errorLog/errorTestB.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/errorLog/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/errorPage/401.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/errorPage/404.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/layout/Layout.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/layout/components/AppMain.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/layout/components/Navbar.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/layout/components/Sidebar/SidebarItem.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/layout/components/Sidebar/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/layout/components/TagsView.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/layout/components/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/layout/mixin/ResizeHandler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/login/authredirect.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/login/countdown.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/login/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/login/socialsignin.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/menu/menu1.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/menu/menu2.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/menu/menu3_1.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/menu/menu3_2.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/menu/menu3_3.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/menu/menu4_1/a.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/menu/menu4_1/b.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/menu/menu4_1/c.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/menu/menu4_1/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/menu/menu4_2/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/qiniu/upload.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/restoBrand/brand/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/restoBrand/instruction/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/restoBrand/instruction/taBar/taBar.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/restoBrand/pos/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/restoBrand/pos/order/details.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/restoBrand/pos/order/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/restoBrand/shop/abnormal/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/restoBrand/shop/article/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/restoBrand/shop/customer/details.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/restoBrand/shop/customer/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/restoBrand/shop/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/restoBrand/shop/order/details.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/restoBrand/shop/order/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/restoBrand/shop/shop/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/server/colony.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/spider/management/business/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/spider/management/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/spider/merchants_user/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/system/perm/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/system/record/a.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/system/record/administrator/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/system/record/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/system/record/order/details.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/system/record/order/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/system/role/assign_perm.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/system/role/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/system/tree.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/system/user/create.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/system/user/edit.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/views/system/user/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpack.config.js" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/public/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="83" />
+    <option name="y" value="42" />
+    <option name="width" value="1819" />
+    <option name="height" value="861" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pos-admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pos-admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="javascript.nodejs.core.library.configured.version" value="5.8.0" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9b4180d8-d34c-4c46-bee3-b95d78e9fae4" name="Default" comment="" />
+      <created>1566542075065</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566542075065</updated>
+      <workItem from="1566542076497" duration="27000" />
+      <workItem from="1566542306258" duration="7000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="34000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="83" y="42" width="1819" height="861" extended-state="0" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24986088" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+</project>

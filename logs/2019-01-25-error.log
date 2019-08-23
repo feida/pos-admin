@@ -1,0 +1,5 @@
+{"level":"error","message":"resource \"GET:/newpos/pos/charts/day/business/statistics\" not found","timestamp":"2019-01-25T09:46:14.137Z"}
+{"level":"info","message":"GET /newpos/pos/charts/day/business/statistics 30 2019-01-25T09:46:14.159Z","timestamp":"2019-01-25T09:46:14.160Z"}
+{"level":"info","message":"GET /newpos/pos/charts/day/business/statistics 100 2019-01-25T10:03:12.395Z","timestamp":"2019-01-25T10:03:12.400Z"}
+{"level":"info","message":"GET /newpos/pos/charts/day/business/statistics 16 2019-01-25T10:04:08.977Z","timestamp":"2019-01-25T10:04:08.978Z"}
+{"level":"info","message":"GET /newpos/pos/charts/day/business/statistics 17 2019-01-25T10:04:22.379Z","timestamp":"2019-01-25T10:04:22.379Z"}

@@ -1,0 +1,159 @@
+{"level":"info","message":"GET /system/info 225 2019-01-21T02:31:18.735Z","timestamp":"2019-01-21T02:31:18.739Z"}
+{"level":"info","message":"GET /system/info 347 2019-01-21T02:35:04.718Z","timestamp":"2019-01-21T02:35:04.722Z"}
+{"level":"error","message":"resource \"GET:/js/vue-count-to.min.js.map\" not found","timestamp":"2019-01-21T02:35:05.725Z"}
+{"level":"info","message":"GET /js/vue-count-to.min.js.map 4 2019-01-21T02:35:05.726Z","timestamp":"2019-01-21T02:35:05.727Z"}
+{"level":"info","message":"GET /system/info 334 2019-01-21T02:37:54.023Z","timestamp":"2019-01-21T02:37:54.023Z"}
+{"level":"error","message":"resource \"GET:/js/vue-count-to.min.js.map\" not found","timestamp":"2019-01-21T02:37:54.238Z"}
+{"level":"info","message":"GET /js/vue-count-to.min.js.map 1 2019-01-21T02:37:54.238Z","timestamp":"2019-01-21T02:37:54.239Z"}
+{"level":"error","message":"ServiceUnavailableError: Response timeout\n    at IncomingMessage.<anonymous> (/Users/chintec/Documents/node/pos-admin/node_modules/connect-timeout/index.js:84:8)\n    at emitOne (events.js:116:13)\n    at IncomingMessage.emit (events.js:211:7)\n    at Timeout._onTimeout (/Users/chintec/Documents/node/pos-admin/node_modules/connect-timeout/index.js:49:11)\n    at ontimeout (timers.js:475:11)\n    at tryOnTimeout (timers.js:310:5)\n    at Timer.listOnTimeout (timers.js:270:5)","timestamp":"2019-01-21T02:40:01.443Z"}
+{"level":"error","message":"resource \"GET:/c3ea0c553aa5fa81624e.hot-update.json\" not found","timestamp":"2019-01-21T02:40:21.556Z"}
+{"level":"info","message":"GET /c3ea0c553aa5fa81624e.hot-update.json 4 2019-01-21T02:40:21.559Z","timestamp":"2019-01-21T02:40:21.562Z"}
+{"level":"info","message":"GET /system/info 363 2019-01-21T02:48:26.015Z","timestamp":"2019-01-21T02:48:26.015Z"}
+{"level":"error","message":"resource \"GET:/js/vue-count-to.min.js.map\" not found","timestamp":"2019-01-21T02:48:26.226Z"}
+{"level":"info","message":"GET /js/vue-count-to.min.js.map 1 2019-01-21T02:48:26.227Z","timestamp":"2019-01-21T02:48:26.227Z"}
+{"level":"info","message":"GET /system/info 286 2019-01-21T02:48:57.992Z","timestamp":"2019-01-21T02:48:57.993Z"}
+{"level":"error","message":"resource \"GET:/js/vue-count-to.min.js.map\" not found","timestamp":"2019-01-21T02:48:58.262Z"}
+{"level":"info","message":"GET /js/vue-count-to.min.js.map 2 2019-01-21T02:48:58.263Z","timestamp":"2019-01-21T02:48:58.263Z"}
+{"level":"error","message":"resource \"GET:/static/charts.html\" not found","timestamp":"2019-01-21T02:49:03.876Z"}
+{"level":"info","message":"GET /static/charts.html 2 2019-01-21T02:49:03.877Z","timestamp":"2019-01-21T02:49:03.877Z"}
+{"level":"info","message":"GET /system/info 807 2019-01-21T02:54:58.446Z","timestamp":"2019-01-21T02:54:58.446Z"}
+{"level":"info","message":"GET /system/info 313 2019-01-21T02:55:15.803Z","timestamp":"2019-01-21T02:55:15.804Z"}
+{"level":"error","message":"resource \"GET:/js/vue-count-to.min.js.map\" not found","timestamp":"2019-01-21T02:55:16.069Z"}
+{"level":"info","message":"GET /js/vue-count-to.min.js.map 1 2019-01-21T02:55:16.069Z","timestamp":"2019-01-21T02:55:16.069Z"}
+{"level":"info","message":"GET /system/info 289 2019-01-21T02:55:52.336Z","timestamp":"2019-01-21T02:55:52.336Z"}
+{"level":"error","message":"resource \"GET:/js/vue-count-to.min.js.map\" not found","timestamp":"2019-01-21T02:55:52.582Z"}
+{"level":"info","message":"GET /js/vue-count-to.min.js.map 1 2019-01-21T02:55:52.583Z","timestamp":"2019-01-21T02:55:52.583Z"}
+{"level":"info","message":"GET /system/info 344 2019-01-21T02:57:33.930Z","timestamp":"2019-01-21T02:57:33.930Z"}
+{"level":"error","message":"resource \"GET:/js/vue-count-to.min.js.map\" not found","timestamp":"2019-01-21T02:57:34.173Z"}
+{"level":"info","message":"GET /js/vue-count-to.min.js.map 1 2019-01-21T02:57:34.173Z","timestamp":"2019-01-21T02:57:34.173Z"}
+{"level":"info","message":"GET /system/info 284 2019-01-21T02:59:22.845Z","timestamp":"2019-01-21T02:59:22.845Z"}
+{"level":"error","message":"resource \"GET:/js/vue-count-to.min.js.map\" not found","timestamp":"2019-01-21T02:59:23.073Z"}
+{"level":"info","message":"GET /js/vue-count-to.min.js.map 1 2019-01-21T02:59:23.074Z","timestamp":"2019-01-21T02:59:23.074Z"}
+{"level":"info","message":"GET /system/info 309 2019-01-21T03:04:29.784Z","timestamp":"2019-01-21T03:04:29.784Z"}
+{"level":"error","message":"resource \"GET:/js/vue-count-to.min.js.map\" not found","timestamp":"2019-01-21T03:04:30.045Z"}
+{"level":"info","message":"GET /js/vue-count-to.min.js.map 1 2019-01-21T03:04:30.045Z","timestamp":"2019-01-21T03:04:30.045Z"}
+{"level":"info","message":"GET /system/info 264 2019-01-21T03:04:41.792Z","timestamp":"2019-01-21T03:04:41.792Z"}
+{"level":"error","message":"resource \"GET:/js/vue-count-to.min.js.map\" not found","timestamp":"2019-01-21T03:04:41.979Z"}
+{"level":"info","message":"GET /js/vue-count-to.min.js.map 1 2019-01-21T03:04:41.979Z","timestamp":"2019-01-21T03:04:41.979Z"}
+{"level":"error","message":"resource \"GET:/static/charts.html\" not found","timestamp":"2019-01-21T03:04:45.259Z"}
+{"level":"info","message":"GET /static/charts.html 1 2019-01-21T03:04:45.259Z","timestamp":"2019-01-21T03:04:45.259Z"}
+{"level":"info","message":"GET /system/info 350 2019-01-21T03:04:51.211Z","timestamp":"2019-01-21T03:04:51.211Z"}
+{"level":"error","message":"resource \"GET:/static/charts.html\" not found","timestamp":"2019-01-21T03:04:53.550Z"}
+{"level":"info","message":"GET /static/charts.html 1 2019-01-21T03:04:53.551Z","timestamp":"2019-01-21T03:04:53.551Z"}
+{"level":"error","message":"resource \"GET:/static/charts.html\" not found","timestamp":"2019-01-21T03:05:16.475Z"}
+{"level":"info","message":"GET /static/charts.html 1 2019-01-21T03:05:16.476Z","timestamp":"2019-01-21T03:05:16.476Z"}
+{"level":"error","message":"resource \"GET:/static/charts.html\" not found","timestamp":"2019-01-21T03:05:37.024Z"}
+{"level":"info","message":"GET /static/charts.html 0 2019-01-21T03:05:37.024Z","timestamp":"2019-01-21T03:05:37.024Z"}
+{"level":"info","message":"GET /system/info 474 2019-01-21T03:05:43.485Z","timestamp":"2019-01-21T03:05:43.486Z"}
+{"level":"error","message":"resource \"GET:/static/charts.html\" not found","timestamp":"2019-01-21T03:05:43.662Z"}
+{"level":"info","message":"GET /static/charts.html 1 2019-01-21T03:05:43.662Z","timestamp":"2019-01-21T03:05:43.662Z"}
+{"level":"error","message":"resource \"GET:/static/charts.html\" not found","timestamp":"2019-01-21T03:05:52.278Z"}
+{"level":"info","message":"GET /static/charts.html 1 2019-01-21T03:05:52.279Z","timestamp":"2019-01-21T03:05:52.279Z"}
+{"level":"error","message":"resource \"GET:/static/charts.html\" not found","timestamp":"2019-01-21T03:05:55.941Z"}
+{"level":"info","message":"GET /static/charts.html 1 2019-01-21T03:05:55.941Z","timestamp":"2019-01-21T03:05:55.941Z"}
+{"level":"info","message":"GET /system/info 318 2019-01-21T03:05:58.060Z","timestamp":"2019-01-21T03:05:58.060Z"}
+{"level":"error","message":"resource \"GET:/static/charts.html\" not found","timestamp":"2019-01-21T03:05:58.214Z"}
+{"level":"info","message":"GET /static/charts.html 0 2019-01-21T03:05:58.214Z","timestamp":"2019-01-21T03:05:58.215Z"}
+{"level":"error","message":"ServiceUnavailableError: Response timeout\n    at IncomingMessage.<anonymous> (/Users/chintec/Documents/node/pos-admin/node_modules/connect-timeout/index.js:84:8)\n    at emitOne (events.js:116:13)\n    at IncomingMessage.emit (events.js:211:7)\n    at Timeout._onTimeout (/Users/chintec/Documents/node/pos-admin/node_modules/connect-timeout/index.js:49:11)\n    at ontimeout (timers.js:475:11)\n    at tryOnTimeout (timers.js:310:5)\n    at Timer.listOnTimeout (timers.js:270:5)","timestamp":"2019-01-21T03:13:05.875Z"}
+{"level":"error","message":"ServiceUnavailableError: Response timeout\n    at IncomingMessage.<anonymous> (/Users/chintec/Documents/node/pos-admin/node_modules/connect-timeout/index.js:84:8)\n    at emitOne (events.js:116:13)\n    at IncomingMessage.emit (events.js:211:7)\n    at Timeout._onTimeout (/Users/chintec/Documents/node/pos-admin/node_modules/connect-timeout/index.js:49:11)\n    at ontimeout (timers.js:475:11)\n    at tryOnTimeout (timers.js:310:5)\n    at Timer.listOnTimeout (timers.js:270:5)","timestamp":"2019-01-21T03:13:26.517Z"}
+{"level":"error","message":"ServiceUnavailableError: Response timeout\n    at IncomingMessage.<anonymous> (/Users/chintec/Documents/node/pos-admin/node_modules/connect-timeout/index.js:84:8)\n    at emitOne (events.js:116:13)\n    at IncomingMessage.emit (events.js:211:7)\n    at Timeout._onTimeout (/Users/chintec/Documents/node/pos-admin/node_modules/connect-timeout/index.js:49:11)\n    at ontimeout (timers.js:475:11)\n    at tryOnTimeout (timers.js:310:5)\n    at Timer.listOnTimeout (timers.js:270:5)","timestamp":"2019-01-21T03:13:38.041Z"}
+{"level":"info","message":"GET /system/info 529 2019-01-21T03:14:56.324Z","timestamp":"2019-01-21T03:14:56.328Z"}
+{"level":"error","message":"resource \"GET:/js/vue-count-to.min.js.map\" not found","timestamp":"2019-01-21T03:14:56.531Z"}
+{"level":"info","message":"GET /js/vue-count-to.min.js.map 4 2019-01-21T03:14:56.532Z","timestamp":"2019-01-21T03:14:56.532Z"}
+{"level":"error","message":"resource \"GET:/fedf840b5fa91aca5b96.hot-update.json\" not found","timestamp":"2019-01-21T03:15:11.555Z"}
+{"level":"info","message":"GET /fedf840b5fa91aca5b96.hot-update.json 12 2019-01-21T03:15:11.563Z","timestamp":"2019-01-21T03:15:11.580Z"}
+{"level":"info","message":"GET /system/info 474 2019-01-21T03:15:12.806Z","timestamp":"2019-01-21T03:15:12.807Z"}
+{"level":"error","message":"resource \"GET:/js/vue-count-to.min.js.map\" not found","timestamp":"2019-01-21T03:15:13.185Z"}
+{"level":"info","message":"GET /js/vue-count-to.min.js.map 1 2019-01-21T03:15:13.186Z","timestamp":"2019-01-21T03:15:13.186Z"}
+{"level":"error","message":"ServiceUnavailableError: Response timeout\n    at IncomingMessage.<anonymous> (/Users/chintec/Documents/node/pos-admin/node_modules/connect-timeout/index.js:84:8)\n    at emitOne (events.js:116:13)\n    at IncomingMessage.emit (events.js:211:7)\n    at Timeout._onTimeout (/Users/chintec/Documents/node/pos-admin/node_modules/connect-timeout/index.js:49:11)\n    at ontimeout (timers.js:475:11)\n    at tryOnTimeout (timers.js:310:5)\n    at Timer.listOnTimeout (timers.js:270:5)","timestamp":"2019-01-21T03:20:16.654Z"}
+{"level":"error","message":"resource \"GET:/c629456166a0da428f9e.hot-update.json\" not found","timestamp":"2019-01-21T03:20:36.770Z"}
+{"level":"info","message":"GET /c629456166a0da428f9e.hot-update.json 3 2019-01-21T03:20:36.772Z","timestamp":"2019-01-21T03:20:36.773Z"}
+{"level":"info","message":"GET /system/info 353 2019-01-21T03:21:20.378Z","timestamp":"2019-01-21T03:21:20.379Z"}
+{"level":"error","message":"resource \"GET:/js/vue-count-to.min.js.map\" not found","timestamp":"2019-01-21T03:21:20.635Z"}
+{"level":"info","message":"GET /js/vue-count-to.min.js.map 1 2019-01-21T03:21:20.635Z","timestamp":"2019-01-21T03:21:20.635Z"}
+{"level":"error","message":"resource \"GET:/static/charts.html\" not found","timestamp":"2019-01-21T03:21:23.334Z"}
+{"level":"info","message":"GET /static/charts.html 1 2019-01-21T03:21:23.335Z","timestamp":"2019-01-21T03:21:23.335Z"}
+{"level":"info","message":"GET /system/info 289 2019-01-21T03:21:39.147Z","timestamp":"2019-01-21T03:21:39.147Z"}
+{"level":"info","message":"GET /system/info 286 2019-01-21T03:23:08.685Z","timestamp":"2019-01-21T03:23:08.685Z"}
+{"level":"info","message":"GET /system/info 273 2019-01-21T03:24:02.966Z","timestamp":"2019-01-21T03:24:02.966Z"}
+{"level":"info","message":"GET /system/info 303 2019-01-21T03:24:16.379Z","timestamp":"2019-01-21T03:24:16.379Z"}
+{"level":"info","message":"GET /system/info 253 2019-01-21T03:24:36.759Z","timestamp":"2019-01-21T03:24:36.759Z"}
+{"level":"error","message":"resource \"GET:/static/charts.html\" not found","timestamp":"2019-01-21T03:24:56.531Z"}
+{"level":"info","message":"GET /static/charts.html 0 2019-01-21T03:24:56.531Z","timestamp":"2019-01-21T03:24:56.532Z"}
+{"level":"info","message":"GET /system/info 336 2019-01-21T03:25:06.275Z","timestamp":"2019-01-21T03:25:06.275Z"}
+{"level":"error","message":"resource \"GET:/static/charts.html\" not found","timestamp":"2019-01-21T03:25:06.509Z"}
+{"level":"info","message":"GET /static/charts.html 1 2019-01-21T03:25:06.510Z","timestamp":"2019-01-21T03:25:06.510Z"}
+{"level":"info","message":"GET /system/info 305 2019-01-21T03:25:44.518Z","timestamp":"2019-01-21T03:25:44.519Z"}
+{"level":"info","message":"GET /system/info 285 2019-01-21T03:37:28.194Z","timestamp":"2019-01-21T03:37:28.194Z"}
+{"level":"info","message":"GET /system/info 253 2019-01-21T03:39:50.596Z","timestamp":"2019-01-21T03:39:50.596Z"}
+{"level":"error","message":"ServiceUnavailableError: Response timeout\n    at IncomingMessage.<anonymous> (/Users/chintec/Documents/node/pos-admin/node_modules/connect-timeout/index.js:84:8)\n    at emitOne (events.js:116:13)\n    at IncomingMessage.emit (events.js:211:7)\n    at Timeout._onTimeout (/Users/chintec/Documents/node/pos-admin/node_modules/connect-timeout/index.js:49:11)\n    at ontimeout (timers.js:475:11)\n    at tryOnTimeout (timers.js:310:5)\n    at Timer.listOnTimeout (timers.js:270:5)","timestamp":"2019-01-21T03:42:46.142Z"}
+{"level":"info","message":"GET /system/info 337 2019-01-21T03:43:03.168Z","timestamp":"2019-01-21T03:43:03.170Z"}
+{"level":"error","message":"ServiceUnavailableError: Response timeout\n    at IncomingMessage.<anonymous> (/Users/chintec/Documents/node/pos-admin/node_modules/connect-timeout/index.js:84:8)\n    at emitOne (events.js:116:13)\n    at IncomingMessage.emit (events.js:211:7)\n    at Timeout._onTimeout (/Users/chintec/Documents/node/pos-admin/node_modules/connect-timeout/index.js:49:11)\n    at ontimeout (timers.js:475:11)\n    at tryOnTimeout (timers.js:310:5)\n    at Timer.listOnTimeout (timers.js:270:5)","timestamp":"2019-01-21T03:44:41.471Z"}
+{"level":"error","message":"resource \"GET:/770b75ecc73f348fe48e.hot-update.json\" not found","timestamp":"2019-01-21T03:45:05.296Z"}
+{"level":"info","message":"GET /770b75ecc73f348fe48e.hot-update.json 1 2019-01-21T03:45:05.297Z","timestamp":"2019-01-21T03:45:05.298Z"}
+{"level":"info","message":"GET /system/info 351 2019-01-21T03:46:13.164Z","timestamp":"2019-01-21T03:46:13.164Z"}
+{"level":"error","message":"ServiceUnavailableError: Response timeout\n    at IncomingMessage.<anonymous> (/Users/chintec/Documents/node/pos-admin/node_modules/connect-timeout/index.js:84:8)\n    at emitOne (events.js:116:13)\n    at IncomingMessage.emit (events.js:211:7)\n    at Timeout._onTimeout (/Users/chintec/Documents/node/pos-admin/node_modules/connect-timeout/index.js:49:11)\n    at ontimeout (timers.js:475:11)\n    at tryOnTimeout (timers.js:310:5)\n    at Timer.listOnTimeout (timers.js:270:5)","timestamp":"2019-01-21T03:49:31.241Z"}
+{"level":"info","message":"GET /system/info 317 2019-01-21T03:50:03.956Z","timestamp":"2019-01-21T03:50:03.958Z"}
+{"level":"error","message":"resource \"GET:/charts.html\" not found","timestamp":"2019-01-21T03:50:18.979Z"}
+{"level":"info","message":"GET /charts.html 2 2019-01-21T03:50:18.980Z","timestamp":"2019-01-21T03:50:18.981Z"}
+{"level":"error","message":"ServiceUnavailableError: Response timeout\n    at IncomingMessage.<anonymous> (/Users/chintec/Documents/node/pos-admin/node_modules/connect-timeout/index.js:84:8)\n    at emitOne (events.js:116:13)\n    at IncomingMessage.emit (events.js:211:7)\n    at Timeout._onTimeout (/Users/chintec/Documents/node/pos-admin/node_modules/connect-timeout/index.js:49:11)\n    at ontimeout (timers.js:475:11)\n    at tryOnTimeout (timers.js:310:5)\n    at Timer.listOnTimeout (timers.js:270:5)","timestamp":"2019-01-21T03:52:57.204Z"}
+{"level":"info","message":"GET /system/info 312 2019-01-21T03:53:17.519Z","timestamp":"2019-01-21T03:53:17.520Z"}
+{"level":"error","message":"ServiceUnavailableError: Response timeout\n    at IncomingMessage.<anonymous> (/Users/chintec/Documents/node/pos-admin/node_modules/connect-timeout/index.js:84:8)\n    at emitOne (events.js:116:13)\n    at IncomingMessage.emit (events.js:211:7)\n    at Timeout._onTimeout (/Users/chintec/Documents/node/pos-admin/node_modules/connect-timeout/index.js:49:11)\n    at ontimeout (timers.js:475:11)\n    at tryOnTimeout (timers.js:310:5)\n    at Timer.listOnTimeout (timers.js:270:5)","timestamp":"2019-01-21T05:54:07.699Z"}
+{"level":"error","message":"ServiceUnavailableError: Response timeout\n    at IncomingMessage.<anonymous> (/Users/chintec/Documents/node/pos-admin/node_modules/connect-timeout/index.js:84:8)\n    at emitOne (events.js:116:13)\n    at IncomingMessage.emit (events.js:211:7)\n    at Timeout._onTimeout (/Users/chintec/Documents/node/pos-admin/node_modules/connect-timeout/index.js:49:11)\n    at ontimeout (timers.js:475:11)\n    at tryOnTimeout (timers.js:310:5)\n    at Timer.listOnTimeout (timers.js:270:5)","timestamp":"2019-01-21T05:59:59.436Z"}
+{"level":"error","message":"resource \"GET:/35a9bfc7deb403fbdc1f.hot-update.json\" not found","timestamp":"2019-01-21T06:00:19.561Z"}
+{"level":"info","message":"GET /35a9bfc7deb403fbdc1f.hot-update.json 3 2019-01-21T06:00:19.563Z","timestamp":"2019-01-21T06:00:19.565Z"}
+{"level":"info","message":"GET /system/info 399 2019-01-21T06:00:21.921Z","timestamp":"2019-01-21T06:00:21.921Z"}
+{"level":"error","message":"ServiceUnavailableError: Response timeout\n    at IncomingMessage.<anonymous> (/Users/chintec/Documents/node/pos-admin/node_modules/connect-timeout/index.js:84:8)\n    at emitOne (events.js:116:13)\n    at IncomingMessage.emit (events.js:211:7)\n    at Timeout._onTimeout (/Users/chintec/Documents/node/pos-admin/node_modules/connect-timeout/index.js:49:11)\n    at ontimeout (timers.js:475:11)\n    at tryOnTimeout (timers.js:310:5)\n    at Timer.listOnTimeout (timers.js:270:5)","timestamp":"2019-01-21T06:01:56.413Z"}
+{"level":"error","message":"resource \"GET:/5de46725f16d30b53c01.hot-update.json\" not found","timestamp":"2019-01-21T06:02:16.521Z"}
+{"level":"info","message":"GET /5de46725f16d30b53c01.hot-update.json 2 2019-01-21T06:02:16.522Z","timestamp":"2019-01-21T06:02:16.523Z"}
+{"level":"info","message":"GET /system/info 689 2019-01-21T06:02:41.041Z","timestamp":"2019-01-21T06:02:41.042Z"}
+{"level":"error","message":"ServiceUnavailableError: Response timeout\n    at IncomingMessage.<anonymous> (/Users/chintec/Documents/node/pos-admin/node_modules/connect-timeout/index.js:84:8)\n    at emitOne (events.js:116:13)\n    at IncomingMessage.emit (events.js:211:7)\n    at Timeout._onTimeout (/Users/chintec/Documents/node/pos-admin/node_modules/connect-timeout/index.js:49:11)\n    at ontimeout (timers.js:475:11)\n    at tryOnTimeout (timers.js:310:5)\n    at Timer.listOnTimeout (timers.js:270:5)","timestamp":"2019-01-21T06:09:44.788Z"}
+{"level":"error","message":"resource \"GET:/35a9bfc7deb403fbdc1f.hot-update.json\" not found","timestamp":"2019-01-21T06:10:04.896Z"}
+{"level":"info","message":"GET /35a9bfc7deb403fbdc1f.hot-update.json 2 2019-01-21T06:10:04.897Z","timestamp":"2019-01-21T06:10:04.898Z"}
+{"level":"info","message":"GET /system/info 432 2019-01-21T06:11:44.499Z","timestamp":"2019-01-21T06:11:44.504Z"}
+{"level":"error","message":"ServiceUnavailableError: Response timeout\n    at IncomingMessage.<anonymous> (/Users/chintec/Documents/node/pos-admin/node_modules/connect-timeout/index.js:84:8)\n    at emitOne (events.js:116:13)\n    at IncomingMessage.emit (events.js:211:7)\n    at Timeout._onTimeout (/Users/chintec/Documents/node/pos-admin/node_modules/connect-timeout/index.js:49:11)\n    at ontimeout (timers.js:475:11)\n    at tryOnTimeout (timers.js:310:5)\n    at Timer.listOnTimeout (timers.js:270:5)","timestamp":"2019-01-21T06:21:28.417Z"}
+{"level":"error","message":"resource \"GET:/3591f965fe9693de14c6.hot-update.json\" not found","timestamp":"2019-01-21T06:21:48.602Z"}
+{"level":"info","message":"GET /3591f965fe9693de14c6.hot-update.json 2 2019-01-21T06:21:48.603Z","timestamp":"2019-01-21T06:21:48.606Z"}
+{"level":"info","message":"GET /system/info 365 2019-01-21T06:23:10.437Z","timestamp":"2019-01-21T06:23:10.437Z"}
+{"level":"info","message":"GET /system/info 517 2019-01-21T06:27:05.010Z","timestamp":"2019-01-21T06:27:05.011Z"}
+{"level":"info","message":"GET /system/info 527 2019-01-21T06:28:54.887Z","timestamp":"2019-01-21T06:28:54.887Z"}
+{"level":"error","message":"resource \"GET:/js/vue-count-to.min.js.map\" not found","timestamp":"2019-01-21T06:29:00.755Z"}
+{"level":"info","message":"GET /js/vue-count-to.min.js.map 1 2019-01-21T06:29:00.756Z","timestamp":"2019-01-21T06:29:00.756Z"}
+{"level":"info","message":"GET /system/info 552 2019-01-21T06:39:27.742Z","timestamp":"2019-01-21T06:39:27.743Z"}
+{"level":"error","message":"resource \"GET:/page/charts/index.html\" not found","timestamp":"2019-01-21T06:39:27.940Z"}
+{"level":"info","message":"GET /page/charts/index.html 2 2019-01-21T06:39:27.941Z","timestamp":"2019-01-21T06:39:27.941Z"}
+{"level":"error","message":"ServiceUnavailableError: Response timeout\n    at IncomingMessage.<anonymous> (/Users/chintec/Documents/node/pos-admin/node_modules/connect-timeout/index.js:84:8)\n    at emitOne (events.js:116:13)\n    at IncomingMessage.emit (events.js:211:7)\n    at Timeout._onTimeout (/Users/chintec/Documents/node/pos-admin/node_modules/connect-timeout/index.js:49:11)\n    at ontimeout (timers.js:475:11)\n    at tryOnTimeout (timers.js:310:5)\n    at Timer.listOnTimeout (timers.js:270:5)","timestamp":"2019-01-21T06:44:12.007Z"}
+{"level":"info","message":"GET /system/info 335 2019-01-21T06:44:21.920Z","timestamp":"2019-01-21T06:44:21.922Z"}
+{"level":"error","message":"resource \"GET:/page/charts/index.html\" not found","timestamp":"2019-01-21T06:44:22.078Z"}
+{"level":"info","message":"GET /page/charts/index.html 2 2019-01-21T06:44:22.079Z","timestamp":"2019-01-21T06:44:22.079Z"}
+{"level":"error","message":"resource \"GET:/page/charts/index.html\" not found","timestamp":"2019-01-21T06:44:49.788Z"}
+{"level":"info","message":"GET /page/charts/index.html 1 2019-01-21T06:44:49.788Z","timestamp":"2019-01-21T06:44:49.788Z"}
+{"level":"error","message":"ServiceUnavailableError: Response timeout\n    at IncomingMessage.<anonymous> (/Users/chintec/Documents/node/pos-admin/node_modules/connect-timeout/index.js:84:8)\n    at emitOne (events.js:116:13)\n    at IncomingMessage.emit (events.js:211:7)\n    at Timeout._onTimeout (/Users/chintec/Documents/node/pos-admin/node_modules/connect-timeout/index.js:49:11)\n    at ontimeout (timers.js:475:11)\n    at tryOnTimeout (timers.js:310:5)\n    at Timer.listOnTimeout (timers.js:270:5)","timestamp":"2019-01-21T06:46:28.127Z"}
+{"level":"error","message":"resource \"GET:/99cd422fcfaf519242ea.hot-update.json\" not found","timestamp":"2019-01-21T06:46:50.032Z"}
+{"level":"info","message":"GET /99cd422fcfaf519242ea.hot-update.json 3 2019-01-21T06:46:50.033Z","timestamp":"2019-01-21T06:46:50.035Z"}
+{"level":"info","message":"GET /system/info 344 2019-01-21T06:46:51.002Z","timestamp":"2019-01-21T06:46:51.003Z"}
+{"level":"error","message":"resource \"GET:/page/charts/index.html\" not found","timestamp":"2019-01-21T06:46:51.159Z"}
+{"level":"info","message":"GET /page/charts/index.html 1 2019-01-21T06:46:51.160Z","timestamp":"2019-01-21T06:46:51.160Z"}
+{"level":"info","message":"GET /system/info 358 2019-01-21T06:50:01.868Z","timestamp":"2019-01-21T06:50:01.868Z"}
+{"level":"error","message":"ServiceUnavailableError: Response timeout\n    at IncomingMessage.<anonymous> (/Users/chintec/Documents/node/pos-admin/node_modules/connect-timeout/index.js:84:8)\n    at emitOne (events.js:116:13)\n    at IncomingMessage.emit (events.js:211:7)\n    at Timeout._onTimeout (/Users/chintec/Documents/node/pos-admin/node_modules/connect-timeout/index.js:49:11)\n    at ontimeout (timers.js:475:11)\n    at tryOnTimeout (timers.js:310:5)\n    at Timer.listOnTimeout (timers.js:270:5)","timestamp":"2019-01-21T06:53:11.330Z"}
+{"level":"info","message":"GET /system/info 445 2019-01-21T06:53:34.281Z","timestamp":"2019-01-21T06:53:34.284Z"}
+{"level":"info","message":"GET /system/info 293 2019-01-21T06:53:35.216Z","timestamp":"2019-01-21T06:53:35.217Z"}
+{"level":"error","message":"ServiceUnavailableError: Response timeout\n    at IncomingMessage.<anonymous> (/Users/chintec/Documents/node/pos-admin/node_modules/connect-timeout/index.js:84:8)\n    at emitOne (events.js:116:13)\n    at IncomingMessage.emit (events.js:211:7)\n    at Timeout._onTimeout (/Users/chintec/Documents/node/pos-admin/node_modules/connect-timeout/index.js:49:11)\n    at ontimeout (timers.js:475:11)\n    at tryOnTimeout (timers.js:310:5)\n    at Timer.listOnTimeout (timers.js:270:5)","timestamp":"2019-01-21T06:55:11.043Z"}
+{"level":"info","message":"GET /system/info 335 2019-01-21T06:55:22.943Z","timestamp":"2019-01-21T06:55:22.945Z"}
+{"level":"info","message":"GET /system/info 314 2019-01-21T06:56:25.003Z","timestamp":"2019-01-21T06:56:25.004Z"}
+{"level":"error","message":"resource \"GET:/pages/charts/index.html\" not found","timestamp":"2019-01-21T06:57:03.951Z"}
+{"level":"info","message":"GET /pages/charts/index.html 1 2019-01-21T06:57:03.952Z","timestamp":"2019-01-21T06:57:03.952Z"}
+{"level":"info","message":"GET /system/info 322 2019-01-21T06:57:12.606Z","timestamp":"2019-01-21T06:57:12.606Z"}
+{"level":"error","message":"resource \"GET:/pages/charts/index.html\" not found","timestamp":"2019-01-21T06:57:12.774Z"}
+{"level":"info","message":"GET /pages/charts/index.html 1 2019-01-21T06:57:12.775Z","timestamp":"2019-01-21T06:57:12.775Z"}
+{"level":"info","message":"GET /system/info 355 2019-01-21T09:20:06.776Z","timestamp":"2019-01-21T09:20:06.778Z"}
+{"level":"error","message":"resource \"GET:/js/vue-count-to.min.js.map\" not found","timestamp":"2019-01-21T09:21:42.346Z"}
+{"level":"info","message":"GET /js/vue-count-to.min.js.map 1 2019-01-21T09:21:42.346Z","timestamp":"2019-01-21T09:21:42.346Z"}
+{"level":"error","message":"ServiceUnavailableError: Response timeout\n    at IncomingMessage.<anonymous> (/Users/chintec/Documents/node/pos-admin/node_modules/connect-timeout/index.js:84:8)\n    at emitOne (events.js:116:13)\n    at IncomingMessage.emit (events.js:211:7)\n    at Timeout._onTimeout (/Users/chintec/Documents/node/pos-admin/node_modules/connect-timeout/index.js:49:11)\n    at ontimeout (timers.js:475:11)\n    at tryOnTimeout (timers.js:310:5)\n    at Timer.listOnTimeout (timers.js:270:5)","timestamp":"2019-01-21T10:47:34.999Z"}
+{"level":"error","message":"resource \"GET:/0bce20350c29341af5de.hot-update.json\" not found","timestamp":"2019-01-21T10:47:55.845Z"}
+{"level":"info","message":"GET /0bce20350c29341af5de.hot-update.json 2 2019-01-21T10:47:55.846Z","timestamp":"2019-01-21T10:47:55.848Z"}
+{"level":"error","message":"ServiceUnavailableError: Response timeout\n    at IncomingMessage.<anonymous> (/Users/chintec/Documents/node/pos-admin/node_modules/connect-timeout/index.js:84:8)\n    at emitOne (events.js:116:13)\n    at IncomingMessage.emit (events.js:211:7)\n    at Timeout._onTimeout (/Users/chintec/Documents/node/pos-admin/node_modules/connect-timeout/index.js:49:11)\n    at ontimeout (timers.js:475:11)\n    at tryOnTimeout (timers.js:310:5)\n    at Timer.listOnTimeout (timers.js:270:5)","timestamp":"2019-01-21T10:51:50.001Z"}
+{"level":"error","message":"ServiceUnavailableError: Response timeout\n    at IncomingMessage.<anonymous> (/Users/chintec/Documents/node/pos-admin/node_modules/connect-timeout/index.js:84:8)\n    at emitOne (events.js:116:13)\n    at IncomingMessage.emit (events.js:211:7)\n    at Timeout._onTimeout (/Users/chintec/Documents/node/pos-admin/node_modules/connect-timeout/index.js:49:11)\n    at ontimeout (timers.js:475:11)\n    at tryOnTimeout (timers.js:310:5)\n    at Timer.listOnTimeout (timers.js:270:5)","timestamp":"2019-01-21T10:52:02.317Z"}
+{"level":"info","message":"GET /admin/login/mobile/verification/code 338 2019-01-21T10:52:13.977Z","timestamp":"2019-01-21T10:52:13.979Z"}
+{"level":"info","message":"GET /admin/login/mobile/verification/code 108 2019-01-21T10:54:39.728Z","timestamp":"2019-01-21T10:54:39.729Z"}
+{"level":"info","message":"GET /admin/login/mobile/verification/code 6 2019-01-21T10:54:42.510Z","timestamp":"2019-01-21T10:54:42.510Z"}

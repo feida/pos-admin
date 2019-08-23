@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>pos-admin</title>
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+  <style>
+    div,h4,p{
+      padding: 0;
+      margin: 0;
+    }
+    .chart-wrapper {
+      /*width:90%;*/
+      height:300px;
+      margin: 20px auto;
+    }
+    .statistic_header {
+      padding: 0 30px;
+      margin-top: 20px;
+    }
+    /*.statistic_header > span {
+      margin-right: 50px;
+    }*/
+    .statistic {
+      text-align: center;
+      margin: 20px 0;
+    }
+    .statistic div {
+      margin: 8px 0;
+      color: #333;
+      font-size: 14px;
+    }
+    .statistic_title {
+      color: #999;
+      font-size: 15px;
+    }
+
+    .income {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 10px solid #c0ccda;
+      text-align: center;
+      margin: 20px auto;
+    }
+    .income > div {
+      margin-top: 23px;
+    }
+
+  </style>
+</head>
+<body style="padding: 0;margin: 0;">
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<script src="https://unpkg.com/element-ui/lib/index.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<!--<script src="http://echarts.baidu.com/build/dist/echarts.js"></script>-->
+<script src="http://echarts.baidu.com/build/dist/echarts-all.js"></script>
+<div id="app" style="">
+  <el-row class="statistic_header">
+    <el-col :xs="11" :sm="12" :lg="12" >
+      <span>营业统计</span>
+    </el-col>
+    <el-col :xs="13" :sm="12" :lg="12">
+      <el-radio-group v-model="radio" size="mini" fill="#000">
+        <el-radio-button label="全部" ></el-radio-button>
+        <el-radio-button label="堂吃"></el-radio-button>
+        <el-radio-button label="外卖"></el-radio-button>
+      </el-radio-group>
+    </el-col>
+  </el-row>
+  <el-row :gutter="32">
+    <el-col :xs="12" :sm="12" :lg="6">
+      <div class="statistic">
+        <h4>{{statisticsData.turnover_total}}</h4>
+        <div>
+          <span>比上周:</span>
+          <span v-if="statisticsData.last_week_turnover_total > 0" style="color: #00FF00">{{statisticsData.last_week_turnover_total}} ↑</span>
+          <span v-else-if="statisticsData.last_week_turnover_total < 0" style="color: red">{{statisticsData.last_week_turnover_total}} ↓</span>
+          <span v-else>{{statisticsData.last_week_turnover_total}}</span>
+        </div>
+        <h4 class="statistic_title">总营业额(元)</h4>
+      </div>
+    </el-col>
+    <el-col :xs="12" :sm="12" :lg="6">
+      <div class="statistic">
+        <h4>{{statisticsData.effective_orders}}</h4>
+        <div>
+          <span>比上周:</span>
+          <span v-if="statisticsData.last_week_effective_orders > 0" style="color: #00FF00">{{statisticsData.last_week_effective_orders}} ↑</span>
+          <span v-else-if="statisticsData.last_week_effective_orders < 0" style="color: red">{{statisticsData.last_week_effective_orders}} ↓</span>
+          <span v-else>{{statisticsData.last_week_effective_orders}}</span>
+        </div>
+        <h4 class="statistic_title">有效订单量</h4>
+      </div>
+    </el-col>
+    <el-col :xs="12" :sm="12" :lg="6">
+      <div class="statistic">
+        <h4>{{statisticsData.customer_number}}</h4>
+        <div>
+          <span>比上周:</span>
+          <span v-if="statisticsData.last_week_customer_number > 0" style="color: #00FF00">{{statisticsData.last_week_customer_number}} ↑</span>
+          <span v-else-if="statisticsData.last_week_customer_number < 0" style="color: red">{{statisticsData.last_week_customer_number}} ↓</span>
+          <span v-else>{{statisticsData.last_week_customer_number}}</span>
+        </div>
+        <h4 class="statistic_title">顾客数</h4>
+      </div>
+    </el-col>
+    <el-col :xs="12" :sm="12" :lg="6">
+      <div class="statistic">
+        <h4>{{statisticsData.customer_score}}</h4>
+        <div>
+          <span>比上周:</span>
+          <span v-if="statisticsData.ayer_customer_score > 0" style="color: #00FF00">{{statisticsData.ayer_customer_score}} ↑</span>
+          <span v-else-if="statisticsData.ayer_customer_score < 0" style="color: red">{{statisticsData.ayer_customer_score}} ↓</span>
+          <span v-else>{{statisticsData.ayer_customer_score}}</span>
+        </div>
+        <h4 class="statistic_title">顾客满意度</h4>
+      </div>
+    </el-col>
+  </el-row>
+  <el-row>
+    <el-col :xs="24" :sm="24" :lg="12" >
+      <el-row class="statistic_header">
+        <el-col :xs="12" :sm="12" :lg="12" >
+          <span>收入占比</span>
+        </el-col>
+      </el-row>
+      <el-row :gutter="32">
+        <el-col :xs="12" :sm="12" :lg="12">
+          <div class="income">
+            <div>
+              <h4 class="statistic_title">实际收入</h4>
+              <h4>{{statisticsData.real_income}}</h4>
+              <div>
+                <span>比昨日:</span>
+                <span v-if="statisticsData.ayer_real_income > 0" style="color: #00FF00">{{statisticsData.ayer_real_income}} ↑</span>
+                <span v-else-if="statisticsData.ayer_real_income < 0" style="color: red">{{statisticsData.ayer_real_income}} ↓</span>
+                <span v-else>{{statisticsData.ayer_real_income}}</span>
+              </div>
+            </div>
+          </div>
+        </el-col>
+        <el-col :xs="12" :sm="12" :lg="12">
+          <div class="income">
+            <div>
+              <h4 class="statistic_title">折扣收入</h4>
+              <h4>{{statisticsData.discount}}</h4>
+              <div>
+                <span>比昨日:</span>
+                <span v-if="statisticsData.ayer_discount > 0" style="color: #00FF00">{{statisticsData.ayer_discount}} ↑</span>
+                <span v-else-if="statisticsData.ayer_discount < 0" style="color: red">{{statisticsData.ayer_discount}} ↓</span>
+                <span v-else>{{statisticsData.ayer_discount}}</span>
+              </div>
+            </div>
+          </div>
+        </el-col>
+      </el-row>
+    </el-col>
+    <el-col :xs="24" :sm="24" :lg="12" >
+      <el-row class="statistic_header">
+        <el-col :xs="11" :sm="12" :lg="12" >
+          <span>舆情统计</span>
+        </el-col>
+        <el-col :xs="13" :sm="12" :lg="12">
+          <el-radio-group v-model="radio" size="mini" fill="#000">
+            <el-radio-button label="全部" ></el-radio-button>
+            <el-radio-button label="堂吃"></el-radio-button>
+            <el-radio-button label="外卖"></el-radio-button>
+          </el-radio-group>
+        </el-col>
+      </el-row>
+      <el-row :gutter="32">
+        <el-col :xs="12" :sm="12" :lg="12">
+          <div class="income">
+            <div>
+              <h4 class="statistic_title">新增评论</h4>
+              <h4>{{statisticsData.add_appraise}}</h4>
+              <div>
+                <span>比昨日:</span>
+                <span v-if="statisticsData.ayer_add_appraise > 0" style="color: #00FF00">{{statisticsData.ayer_add_appraise}} ↑</span>
+                <span v-else-if="statisticsData.ayer_add_appraise < 0" style="color: red">{{statisticsData.ayer_add_appraise}} ↓</span>
+                <span v-else>{{statisticsData.ayer_add_appraise}}</span>
+              </div>
+            </div>
+          </div>
+        </el-col>
+        <el-col :xs="12" :sm="12" :lg="12">
+          <div class="income">
+            <div>
+              <h4 class="statistic_title">1-3星评论</h4>
+              <h4>{{statisticsData.add_appraise_rank}}</h4>
+              <div>
+                <span>比昨日:</span>
+                <span v-if="statisticsData.ayer_add_appraise_rank > 0" style="color: #00FF00">{{statisticsData.ayer_add_appraise_rank}} ↑</span>
+                <span v-else-if="statisticsData.ayer_add_appraise_rank < 0" style="color: red">{{statisticsData.ayer_add_appraise_rank}} ↓</span>
+                <span v-else>{{statisticsData.ayer_add_appraise_rank}}</span>
+              </div>
+            </div>
+          </div>
+        </el-col>
+      </el-row>
+    </el-col>
+  </el-row>
+  <!--<el-row>
+    <el-col :xs="12" :sm="12" :lg="6" >
+      <span>收入占比</span>
+    </el-col>
+    <el-col :xs="12" :sm="12" :lg="6">
+      <el-radio-group v-model="radio" size="mini" fill="#000">
+        <el-radio-button label="全部" ></el-radio-button>
+        <el-radio-button label="堂吃"></el-radio-button>
+        <el-radio-button label="外卖"></el-radio-button>
+      </el-radio-group>
+    </el-col>
+  </el-row>-->
+  <el-row :gutter="32">
+    <el-col :xs="24" :sm="24" :lg="8">
+      <div class="chart-wrapper">
+        <div id="charts_01" style="width:100%; height:100%"></div>
+      </div>
+    </el-col>
+    <el-col :xs="24" :sm="24" :lg="8">
+      <div class="chart-wrapper">
+        <div id="charts_02" style="width:100%; height:100%"></div>
+      </div>
+    </el-col>
+    <el-col :xs="24" :sm="24" :lg="8">
+      <div class="chart-wrapper">
+        <div id="charts_03" style="width:100%; height:100%"></div>
+      </div>
+    </el-col>
+  </el-row>
+</div>
+
+<script type="text/javascript">
+  new Vue({
+    el: '#app',
+    data: function() {
+      return {
+        radio: '全部',
+        url: window.location.origin,
+        brand_id: '2f83afee7a0e4822a6729145dd53af33',
+        shop_id: 'd2ff1bbb8c6f4fd8adb3949f76f8c1b6',
+        statisticsData: {
+        }
+      }
+    },
+    created() {
+     this.getStatistics()
+
+
+    },
+    methods: {
+      aa(){
+        //let url = 'http://127.0.0.1:8001'
+        //let url = window.location.origin
+        axios.get( this.url+'/newpos/pos/charts/trend/analysis/two/weeks', {
+          params: {
+            brand_id: that.brand_id,
+            shop_id: that.shop_id
+          }
+        }).then(function (response) {
+            console.log('response1111111',response);
+          }).catch(function (error) {
+            console.log(error);
+          });
+      },
+      // 营业统计
+      getStatistics() {
+        let that = this
+        axios.get( this.url+'/newpos/pos/charts/day/business/statistics', {
+          params: {
+            brand_id: that.brand_id,
+            shop_id: that.shop_id
+          }
+        }).then(function (response) {
+            if(response.status == 200 && response.data.result.ok){
+              that.statisticsData = response.data.result.data
+            }
+            console.log('response222',response);
+          }).catch(function (error) {
+            console.log(error);
+          });
+      }
+    }
+  })
+  // 路径配置
+  /*require.config({
+    paths: {
+      echarts: 'http://echarts.baidu.com/build/dist'
+    }
+  });
+
+  // 使用
+  require(
+    [
+      'echarts',
+      'echarts/chart/bar', // 使用柱状图就加载bar模块，按需加载
+      'echarts/chart/pie', // 使用饼图就加载pie模块，按需加载
+      'echarts/chart/line' // 使用折线图就加载line模块，按需加载
+    ],
+    function (ec) {
+      // 基于准备好的dom，初始化echarts图表
+      //var charts_01 = ec.init(document.getElementById('charts_01'));
+      var charts_02 = ec.init(document.getElementById('charts_02'));
+      var charts_03 = ec.init(document.getElementById('charts_03'));
+
+      var option = {
+        title : {
+          text: '柱状图',
+          x:'center'
+        },
+        tooltip: {
+          show: true
+        },
+        legend: {
+          data:['','销量']
+        },
+        xAxis : [
+          {
+            type : 'category',
+            data : ["衬衫","羊毛衫","雪纺衫","裤子","高跟鞋","袜子"]
+          }
+        ],
+        yAxis : [
+          {
+            type : 'value'
+          }
+        ],
+        series : [
+          {
+            "name":"销量",
+            "type":"bar",
+            "data":[5, 20, 40, 10, 10, 20]
+          },
+          {
+            "name":"销量",
+            "type":"bar",
+            "data":[56, 24, 40, 10, 10, 20]
+          },
+          {
+            "name":"销量",
+            "type":"bar",
+            "data":[58, 20, 40, 19, 10, 20]
+          }
+        ]
+      };
+      var option1 = {
+        title : {
+          text: '饼图',
+          //subtext: '纯属虚构',
+          x:'center',
+        },
+        tooltip : {
+          trigger: 'item',
+          //formatter: "{a} <br/>{b} : {c} ({d}%)"
+          formatter: "{a} <br/>{b} : {c}"
+        },
+        legend: {
+          x : 'center',
+          y : 'bottom',
+          data:['rose1','rose2','rose3','rose4','rose5','rose6',]
+        },
+        toolbox: {
+          //show : true,
+          show : false,
+          feature : {
+            mark : {show: true},
+            dataView : {show: true, readOnly: false},
+            magicType : {
+              show: true,
+              type: ['pie', 'funnel']
+            },
+            restore : {show: true},
+            saveAsImage : {show: true}
+          }
+        },
+        calculable : true,
+        series : [
+          {
+            name:'总额',
+            type:'pie',
+            radius : [30, 110],
+            //center : ['75%', 200],
+            roseType : 'area',
+            x: '50%',               // for funnel
+            max: 40,                // for funnel
+            sort : 'ascending',     // for funnel
+            data:[
+              {value:10, name:'rose1'},
+              {value:5, name:'rose2'},
+              {value:15, name:'rose3'},
+              {value:25, name:'rose4'},
+              {value:20, name:'rose5'},
+              {value:25, name:'rose6'},
+              /!*{value:30, name:'rose7'},
+              {value:40, name:'rose8'}*!/
+            ]
+          }
+        ]
+      };
+      var option2 = {
+        title : {
+         text: '折线图',
+         x:'center',
+        },
+        tooltip : {
+          trigger: 'axis'
+        },
+        legend: {
+          x: 'center',
+          y: '3px',
+          data:['','邮件营销','联盟广告','视频广告','直接访问','搜索引擎'],
+          padding:'0 5px',
+        },
+        /!*toolbox: {
+          show : false,
+          feature : {
+            mark : {show: true},
+            dataView : {show: true, readOnly: false},
+            magicType : {show: true, type: ['line', 'bar', 'stack', 'tiled']},
+            restore : {show: true},
+            saveAsImage : {show: true}
+          }
+        },*!/
+        calculable : true,
+        xAxis : [
+          {
+            type : 'category',
+            boundaryGap : false,
+            data : ['周一','周二','周三','周四','周五','周六','周日']
+          }
+        ],
+        yAxis : [
+          {
+            type : 'value'
+          }
+        ],
+        series : [
+          {
+            name:'邮件营销',
+            type:'line',
+            //stack: '总量',
+            data:[120, 132, 101, 134, 90, 230, 210]
+          },
+          {
+            name:'联盟广告',
+            type:'line',
+            //stack: '总量',
+            data:[220, 182, 191, 234, 290, 330, 310]
+          },
+          {
+            name:'视频广告',
+            type:'line',
+            //stack: '总量',
+            data:[150, 232, 201, 154, 190, 330, 410]
+          },
+          {
+            name:'直接访问',
+            type:'line',
+            //stack: '总量',
+            data:[320, 332, 301, 334, 390, 330, 320]
+          },
+          {
+            name:'搜索引擎',
+            type:'line',
+            //stack: '总量',
+            data:[820, 932, 901, 934, 1290, 1330, 1320]
+          }
+        ]
+      };
+
+      // 为echarts对象加载数据
+      //charts_01.setOption(option);
+      charts_02.setOption(option1);
+      charts_03.setOption(option2);
+
+      window.onresize = function(){
+        //charts_01.resize();
+        charts_02.resize();
+        charts_03.resize();
+        //若有多个图表变动，可多写
+
+      }
+    }
+  );*/
+  var option = {
+    title : {
+      text: '柱状图',
+      x:'center'
+    },
+    tooltip: {
+      show: true
+    },
+    legend: {
+      data:['','销量']
+    },
+    xAxis : [
+      {
+        type : 'category',
+        data : ["衬衫","羊毛衫","雪纺衫","裤子","高跟鞋","袜子"]
+      }
+    ],
+    yAxis : [
+      {
+        type : 'value'
+      }
+    ],
+    series : [
+      {
+        "name":"销量",
+        "type":"bar",
+        "data":[5, 20, 40, 10, 10, 20]
+      },
+      {
+        "name":"销量",
+        "type":"bar",
+        "data":[56, 24, 40, 10, 10, 20]
+      },
+      {
+        "name":"销量",
+        "type":"bar",
+        "data":[58, 20, 40, 19, 10, 20]
+      }
+    ]
+  };
+  var charts_01 = echarts.init(document.getElementById('charts_01'));
+  charts_01.setOption(option);
+  window.onresize = function(){
+    charts_01.resize();
+  }
+
+</script>
+</body>
+</html>
